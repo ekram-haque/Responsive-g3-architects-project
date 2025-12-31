@@ -77,6 +77,11 @@ nav ul a {
     padding-bottom: 20px;
 }
 
+.banner-info{
+    max-width: 870px;
+    margin: 0 auto;
+}
+
 .banner-title{
 font-size: 64px;
 font-weight: bold;
@@ -129,6 +134,43 @@ font-size: 16px;
     color: #FF900E;
     font-weight: bold;
 
+}
+
+/* feature section  */
+.feature-section{
+    display: flex;
+    gap: 150px;
+    margin-top: 130px;
+}
+.feature-left{
+    max-width: 586px;
+}
+
+.feature-title{
+    font-size: 45px;
+    font-weight: 800;
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+}
+
+.feature-card{
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.06);
+    margin-bottom: 40px;
+}
+.feature-card h5{
+    margin-top: 5px;
+}
+.badge{
+    margin-left: -100px;
+    margin-top: -100px;
+    padding: 45px 40px;
+}
+
+.badge-experience{
+    font-size: 45px;
+    font-weight: bold;
 }
 
 /* facts section  */
@@ -194,4 +236,14 @@ font-size: 16px;
 
 .sponsor-companies img{
     filter: grayscale(100);
+}
+
+/* footer section  */
+.footer {
+    padding: 40px 0;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 220px;
+    text-align: center;
+    border-radius: 8px;
 }
